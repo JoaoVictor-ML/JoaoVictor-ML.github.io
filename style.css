@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 28%, rgba(33, 218, 255, 1) 100%);
+}
+header{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 28%, rgba(33, 218, 255, 1) 100%);;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin:0 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.8s ease;
+}
+nav ul li a:hover{
+    transform: scale(1.5);
+    background: gray;
+    cursor: pointer;
+}
+#sobre{
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    background: #ff0000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    justify-content: space-between;
+}
+.info-sobre{
+    margin: auto;
+    background-color: rgb(13, 5, 159);
+    width: 450px;
+    height: 450px;
+    font-size: large;
+    text-align:center;
+    border-radius: 20px;
+}
+.nome{
+    padding-top: 20px;
+  
+}
+.sobre-texto{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10%;
+    font-size: 20px;
+    text-align: justify;
+   height: 300px;
+   line-height: 1.5;
+}
+.foto-perfil{
+    display: flex;
+    gap: 16px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f4f4f4;
+}
+#formacao{
+    background-color: orange;
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    align-items: center;
+    background: rgb(0, 124, 213);
+    border-radius: 8%;
+    padding: 10px;
+}
+h1{
+    color: rgb(0, 0, 62);
+    font-weight: bold;
+    font-family: Tahoma;
+}
+h2{
+    color: rgb(0, 0, 62);
+    font-family: Verdana;
+}
+h3{
+    color: rgb(0, 0, 62);
+    font-family: sans-serif;
+}
+p{
+    color: rgb(0, 0, 62);
+    font-family: sans-serif;
+}
